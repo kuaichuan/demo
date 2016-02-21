@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // 第一次修改
+    id obj = [NSMutableArray array];
+    [obj addObject:@2];
 }
 
 - (void)didReceiveMemoryWarning {
